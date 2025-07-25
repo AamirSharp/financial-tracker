@@ -25,41 +25,6 @@ A full-stack desktop application built using Java and MySQL to help a small clot
 - **NetBeans IDE** – Used for development  
 
 ---
-
-## 🧪 Test Credentials
-
-To test the system, use the following login:
-
-```txt
-Username: Adamp
-Password: Asdfghjkl!1
-📁 Project Structure
-graphql
-Copy
-Edit
-financial-tracker/
-├── src/                       # Java source code
-├── Documentation/            # IB IA PDFs: Criteria A–E, Appendices
-├── Product/                  # Executables (if included)
-├── build.xml                 # NetBeans Ant build config
-├── README.md                 # This file
-🗃️ Database Schema
-📌 Database Name: anaskdatabase
-Table: registration
-Column	Type
-fname	VARCHAR(33)
-lname	VARCHAR(33)
-username	VARCHAR(33) PRIMARY KEY
-password	VARCHAR(33)
-
-Table: inventory
-Stores product details: item name, price, quantity, etc.
-
-Table: finance
-Tracks income and expense records with timestamps and categories.
-
-⚠️ Full details are available in Criterion C and Appendix II in the Documentation/ folder.
-
 🚀 How to Run
 🧰 Prerequisites:
 Java JDK 8 or higher
@@ -67,7 +32,7 @@ Java JDK 8 or higher
 MySQL installed and running
 
 NetBeans (or compatible IDE)
-
+---
 ▶️ Steps:
 Clone this repository
 
@@ -80,4 +45,15 @@ Create the necessary tables (registration, inventory, finance) as described abov
 Update DB credentials in DatabaseConnector.java or wherever the connection is defined
 
 Run the project via Main.java
+---
+
+## 🧪 Test Credentials
+
+To test the system, use the following login:
+
+```txt
+Username: Adamp
+Password: Asdfghjkl!1
+
+
 
